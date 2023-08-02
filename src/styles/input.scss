@@ -1,0 +1,11 @@
+.input{
+    padding:0.625rem 1rem;
+    border: 2px solid transparent;
+    background-color: var(--grey-1);
+    border-radius: 0.3125rem;
+
+    &:focus{
+        border: 2px solid var(--grey-4);
+        color: var(--grey-4);
+    }
+}

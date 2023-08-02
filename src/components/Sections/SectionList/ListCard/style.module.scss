@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    background-color: var(--grey-1);
+    height: 87px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.retangle{
+    width: 0.25rem;
+    height: 5.4375rem;
+    border-radius: 4px 0 0 4px;
+    &.entrance{
+        background-color: var(--color-secondary);
+    }
+    &.exit{
+        background-color: var(--grey-2)
+    }
+}
+.div__container{
+    display: flex;
+    align-items: center;
+}
+.div__price{
+    padding-right: 0.875rem;
+    text-align: end;    
+}
+.info{
+    padding-left: 0.875rem;
+}
