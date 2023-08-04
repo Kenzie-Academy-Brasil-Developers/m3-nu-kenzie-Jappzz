@@ -12,6 +12,7 @@ export const Input = ({ label, id, type, placeholder, value, setValue }) => {
                 id={id}
                 onChange={(event) => setValue(event.target.value)}
                 value={value}
+                required
                 className="title headline input " />
         </div>
     )

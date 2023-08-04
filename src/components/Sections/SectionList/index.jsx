@@ -1,9 +1,9 @@
-import React from 'react';
-import { ListCard } from './ListCard';
+import React from "react"
+import { ListCard } from "./ListCard"
 import styles from "../SectionList/style.module.scss"
 
 export const SectionList = ({ noteList, removeNote }) => {
-    const isListEmpty = noteList.length === 0;
+    const isListEmpty = noteList.length === 0
 
     return (
         <section className={styles.section__container}>
@@ -24,5 +24,5 @@ export const SectionList = ({ noteList, removeNote }) => {
                 ))}
             </ul>
         </section>
-    );
-};
+    )
+}
